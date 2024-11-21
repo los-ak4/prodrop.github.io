@@ -3,6 +3,13 @@ title: So Few Elves Told Me to Send This Email--1st Pro-Drop English Newletter
 author: Audrey
 ---
 
+<style>
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+</style>
+
 Good been the break everyone,
 
 Thank you for attending the last Pro-Drop English conference. Am sending this email to remind you of the new changes have made to our beautiful language <3.
