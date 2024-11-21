@@ -141,7 +141,7 @@ article .header {
 }
 
 /* for larger screens */
-@media (min-width: 1440px) {
+@media (min-width: 720px) {
   body {
     width: 70%;
     margin: 0 auto;
