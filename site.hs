@@ -3,6 +3,13 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 
+import Text.Pandoc.Options (WriterOptions, ReaderOptions, writerExtensions, pandocExtensions)
+
+
+--------------------------------------------------------------------------------
+myPandocOptions = defaultHakyllWriterOptions
+  { writerExtensions = pandocExtensions
+  }
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -23,7 +30,7 @@ main = hakyllWith config $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocCompilerWith defaultHakyllReaderOptions myPandocOptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
