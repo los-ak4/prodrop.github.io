@@ -80,8 +80,7 @@ config :: Configuration
 config = defaultConfiguration
   { destinationDirectory = "docs"
   , deployCommand = intercalate " && "
-        [ "site build"
-        , "git add ."
+        [ "git add ."
         , "set /p msg = \"Commit message? \""
         , "git commit -m \"%msg%\""
         , "git push"
