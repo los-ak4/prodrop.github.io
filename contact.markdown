@@ -10,4 +10,4 @@ Prodrop bible Discord:
 
 Confused about gorping?
 
-<iframe width="70%" height="auto" src="https://www.youtube.com/embed/-p_krUd2CSA" title="The duck is gorping the bunny" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="height:300px;width:300px" src="https://www.youtube.com/embed/-p_krUd2CSA" title="The duck is gorping the bunny" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
