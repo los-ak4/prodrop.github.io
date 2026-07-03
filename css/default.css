@@ -65,6 +65,11 @@ article .header {
   color: #444;
 }
 
+a {
+  color: #043b94ca;
+  text-decoration: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
