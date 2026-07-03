@@ -18,47 +18,25 @@ main = withUtf8 $ do  -- to solve unicode problems
             route   idRoute
             compile compressCssCompiler
 
-        match (fromList ["about.rst", "contact.markdown"]) $ do
+        match (fromList ["contact.markdown"]) $ do
             route   $ setExtension "html"
             compile $ pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" defaultContext
-                >>= relativizeUrls
-
-        match "posts/*" $ do
-            route $ setExtension "html"
-            compile $ pandocCompiler
-                >>= loadAndApplyTemplate "templates/post.html"    postCtx
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
                 >>= relativizeUrls
         
         match "law/*" $ do
             route $ setExtension "html"
             compile $ pandocCompiler
-                >>= loadAndApplyTemplate "templates/post.html"    postCtx
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
+                >>= loadAndApplyTemplate "templates/law.html"    lawCtx
+                >>= loadAndApplyTemplate "templates/default.html" lawCtx
                 >>= relativizeUrls
-
-        create ["archive.html"] $ do
-            route idRoute
-            compile $ do
-                posts <- recentFirst =<< loadAll "posts/*"
-                let archiveCtx =
-                        listField "posts" postCtx (return posts) `mappend`
-                        constField "title" "Archives"            `mappend`
-                        defaultContext
-
-                makeItem ""
-                    >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                    >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                    >>= relativizeUrls
-
 
         match "index.html" $ do
             route idRoute
             compile $ do
                 laws <- recentFirst =<< loadAll "law/*"
                 let indexCtx =
-                        listField "law" postCtx (return laws) `mappend`
+                        listField "law" lawCtx (return laws) `mappend`
                         defaultContext
 
                 getResourceBody
@@ -70,8 +48,8 @@ main = withUtf8 $ do  -- to solve unicode problems
 
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
+lawCtx :: Context String
+lawCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
