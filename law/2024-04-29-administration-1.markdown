@@ -4,11 +4,16 @@ author: Audrey
 ---
 
 <link rel="stylesheet" href="/css/wiki-style.css">
-HELLO DROPPERS!!!!!!!!!
+<div class="wiki" id="hello-h2-title"><h2 id="hello-h2">HELLO DROPPERS!!!!!!!!!</h2></div>
+
 Found this on wikipedia. Pro Drop fr. Fun fact of the day. 
+
 New word is vealing (thanks Jakob) if are beefing academically or sophisticatedly, are vealing. E.g. the syntax corner is vealing. 
+
 More importantly, if are a senior and want to continue receiving the newsletter next year (if continue sending it) please let let me know a better email so that can add it to the mailing list.
+
 Yours in the dropping of the pronouns forever,
+
 Audrey
 
 

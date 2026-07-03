@@ -9,11 +9,28 @@
     margin-bottom: 2em;
 }
 
+.wiki#hello-h2-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-weight: 400 !important;
+    font-size: 1.7rem !important;
+    margin-top: 1em !important;
+    background-color: #AAAAAA !important;
+}
+
 .wiki * {
   background-color: transparent;
   font-family: sans-serif !important;
   font-weight: 400 !important;
   font-size: 1.2rem !important;
+}
+
+.wiki h2#hello-h2 {
+    border-bottom: 1px solid #a2a9b1 !important;
+    font-weight: 400 !important;
+    font-size: 1.7rem !important;
+    margin-top: 1em !important;
+    background-color: #AAAAAA !important;
 }
 
 .wiki .mw-parser-output {
