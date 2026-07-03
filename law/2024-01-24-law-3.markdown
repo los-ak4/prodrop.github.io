@@ -31,4 +31,4 @@ The elves borrowed things from modern Japanese.
 
 Gorpel you the semester!
 
-<span style="color: gray">Audrey :)</span>
+<span class="signature">Audrey :)</span>

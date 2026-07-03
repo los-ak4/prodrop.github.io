@@ -49,4 +49,4 @@ Eska God meyest?
 
 Happy wedding!
 
-<span style="color: gray">Audrey</span>
+<span class="signature">Audrey</span>

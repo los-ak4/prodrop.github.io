@@ -23,7 +23,7 @@ The 12 languages learned at 12 months are Spanish, Mandarin, Marathi, Classical 
 
 Good be the night!
 
-<span style="color: gray">Audrey</span>
+<span class="signature">Audrey</span>
 
 ---
 

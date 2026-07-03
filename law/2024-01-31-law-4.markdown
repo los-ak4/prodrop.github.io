@@ -23,7 +23,7 @@ The law still meyest, but not sure about what the law is. Believe that law is me
 
 N&#8217;elvesmaxxel-pas all,
 
-<span style="color: gray">Audrey</span>
+<span class="signature">Audrey</span>
 
 ---
 
@@ -35,4 +35,4 @@ Root means original now.
 
 The monkeys not mad at Amelia, just disappointed.
 
-<span style="color: gray">(Revision was written by Hussein? not signed off in email)</span>
+<span class="signature">(Revision was written by Hussein? not signed off in email)</span>

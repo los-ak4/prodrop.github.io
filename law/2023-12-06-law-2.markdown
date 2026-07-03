@@ -50,7 +50,7 @@ Eska law meyest?
 
 Eska feel not joy?
 
-<span style="color: gray">Audrey</span>
+<span class="signature">Audrey</span>
 
 ---
 
