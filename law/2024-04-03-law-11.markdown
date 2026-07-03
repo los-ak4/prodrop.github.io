@@ -35,4 +35,4 @@ Chinese is not a subset of English.
 
 Best night ever be the night,
 
-<span class="signature">Audrey</span>
+Audrey
