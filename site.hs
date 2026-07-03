@@ -59,7 +59,7 @@ config = defaultConfiguration
   { destinationDirectory = "docs"
   , deployCommand = intercalate " && "
         [ "git add ."
-        , "set /p msg = \"Commit message? \""
+        , "set /p msg=\"Commit message? \""
         , "git commit -m %msg%"
         , "git push"
         ]
