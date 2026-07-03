@@ -15,7 +15,7 @@
     font-weight: 400 !important;
     font-size: 1.7rem !important;
     margin-top: 1em !important;
-    background-color: #AAAAAA !important;
+    background-color: transparent !important;
 }
 
 .wiki * {
@@ -30,7 +30,7 @@
     font-weight: 400 !important;
     font-size: 1.7rem !important;
     margin-top: 1em !important;
-    background-color: #AAAAAA !important;
+    background-color: transparent !important;
 }
 
 .wiki .mw-parser-output {

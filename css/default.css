@@ -5,12 +5,14 @@ html {
 }
 
 * {
-  background-color: #AAAAAA;
+  /*background-color: #AAAA88;*/
+  
   font-family: 'IM Fell English', serif;
   font-weight: 800;
 }
 
 body {
+  background-image: url('../images/parchment-dimmer.png');
   font-size: 1.5rem;
   color: #000;
 }
