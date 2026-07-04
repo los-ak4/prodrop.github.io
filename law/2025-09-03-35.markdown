@@ -24,6 +24,6 @@ Hussein
 Legend of the Mad Executioner:
 <object class="pdf" 
         data="/documents/The Legend of the Mad Executioner.pdf"
-        width="800"
+        width="90%"
         height="500">
 </object>
