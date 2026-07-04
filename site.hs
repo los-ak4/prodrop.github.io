@@ -34,7 +34,7 @@ main = withUtf8 $ do  -- to solve unicode problems
         match "index.html" $ do
             route idRoute
             compile $ do
-                laws <- recentFirst =<< loadAll "law/*"
+                laws <- (return . (take 7)) =<< recentFirst =<< loadAll "law/*"
                 let indexCtx =
                         listField "law" lawCtx (return laws) `mappend`
                         defaultContext
@@ -42,6 +42,19 @@ main = withUtf8 $ do  -- to solve unicode problems
                 getResourceBody
                     >>= applyAsTemplate indexCtx
                     >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                    >>= relativizeUrls
+
+        match "law-archive.html" $ do
+            route idRoute
+            compile $ do
+                laws <- recentFirst =<< loadAll "law/*"
+                let archiveCtx =
+                        listField "law" lawCtx (return laws) `mappend`
+                        defaultContext
+
+                getResourceBody
+                    >>= applyAsTemplate archiveCtx
+                    >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                     >>= relativizeUrls
 
         match "templates/*" $ compile templateBodyCompiler
