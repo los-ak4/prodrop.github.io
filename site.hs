@@ -14,6 +14,10 @@ main = withUtf8 $ do  -- to solve unicode problems
             route   idRoute
             compile copyFileCompiler
 
+        match "documents/*" $ do
+            route   idRoute
+            compile copyFileCompiler
+
         match "css/*" $ do
             route   idRoute
             compile compressCssCompiler
