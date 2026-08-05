@@ -2,8 +2,10 @@
 title: Contact/Links
 ---
 
-If looking to join mailing list, fill fill this form:
+If looking to join mailing list, fill fill this form: <https://forms.gle/wa8xVjh455JtCd336>
 
+Prodrop playlist on YouTube:
+<https://www.youtube.com/playlist?list=PLQRQmH6aDqu4KOG2c7xxfHBPoevEqX4l1>
 
 Prodrop bible Discord:
 <https://discord.gg/GgTMbqmRDX>
